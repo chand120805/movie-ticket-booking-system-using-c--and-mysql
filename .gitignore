@@ -1,7 +1,16 @@
+# Ignore binaries and auto-generated files
 *.exe
 *.dll
+*.layout
+*.dev
 *.o
 *.obj
-.DS_Store
-*.class
 *.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Optional build output
+build/
+out/
